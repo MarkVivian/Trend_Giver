@@ -1,16 +1,9 @@
-# This is a sample Python script.
+import Trend_Algorithm.Trend as Tr
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shi ft to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+def Runner():
+    print("running the main file.")
+    Tr.TrendAlg().runner()
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+if __name__ == "__main__":
+    Runner()
