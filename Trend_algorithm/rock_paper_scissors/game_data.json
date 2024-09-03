@@ -1,0 +1,242 @@
+[
+    {
+        "player_choice": "rock",
+        "computer_choice": "scissors",
+        "outcome": "player wins",
+        "game_number": 0
+    },
+    {
+        "player_choice": "paper",
+        "computer_choice": "rock",
+        "outcome": "player wins",
+        "game_number": 1
+    },
+    {
+        "player_choice": "scissors",
+        "computer_choice": "scissors",
+        "outcome": "tie",
+        "game_number": 2
+    },
+    {
+        "player_choice": "rock",
+        "computer_choice": "paper",
+        "outcome": "computer wins",
+        "game_number": 3
+    },
+    {
+        "player_choice": "paper",
+        "computer_choice": "paper",
+        "outcome": "tie",
+        "game_number": 4
+    },
+    {
+        "player_choice": "rock",
+        "computer_choice": "scissors",
+        "outcome": "player wins",
+        "game_number": 5
+    },
+    {
+        "player_choice": "paper",
+        "computer_choice": "paper",
+        "outcome": "tie",
+        "game_number": 6
+    },
+    {
+        "player_choice": "scissors",
+        "computer_choice": "paper",
+        "outcome": "player wins",
+        "game_number": 7
+    },
+    {
+        "player_choice": "rock",
+        "computer_choice": "paper",
+        "outcome": "computer wins",
+        "game_number": 8
+    },
+    {
+        "player_choice": "scissors",
+        "computer_choice": "paper",
+        "outcome": "player wins",
+        "game_number": 9
+    },
+    {
+        "player_choice": "rock",
+        "computer_choice": "paper",
+        "outcome": "computer wins",
+        "game_number": 10
+    },
+    {
+        "player_choice": "scissors",
+        "computer_choice": "paper",
+        "outcome": "player wins",
+        "game_number": 11
+    },
+    {
+        "player_choice": "rock",
+        "computer_choice": "paper",
+        "outcome": "computer wins",
+        "game_number": 12
+    },
+    {
+        "player_choice": "scissors",
+        "computer_choice": "rock",
+        "outcome": "computer wins",
+        "game_number": 13
+    },
+    {
+        "player_choice": "paper",
+        "computer_choice": "scissors",
+        "outcome": "computer wins",
+        "game_number": 14
+    },
+    {
+        "player_choice": "scissors",
+        "computer_choice": "rock",
+        "outcome": "computer wins",
+        "game_number": 15
+    },
+    {
+        "player_choice": "paper",
+        "computer_choice": "scissors",
+        "outcome": "computer wins",
+        "game_number": 16
+    },
+    {
+        "player_choice": "paper",
+        "computer_choice": "paper",
+        "outcome": "tie",
+        "game_number": 17
+    },
+    {
+        "player_choice": "rock",
+        "computer_choice": "rock",
+        "outcome": "tie",
+        "game_number": 18
+    },
+    {
+        "player_choice": "paper",
+        "computer_choice": "scissors",
+        "outcome": "computer wins",
+        "game_number": 19
+    },
+    {
+        "player_choice": "scissors",
+        "computer_choice": "scissors",
+        "outcome": "tie",
+        "game_number": 20
+    },
+    {
+        "player_choice": "paper",
+        "computer_choice": "scissors",
+        "outcome": "computer wins",
+        "game_number": 21
+    },
+    {
+        "player_choice": "rock",
+        "computer_choice": "paper",
+        "outcome": "computer wins",
+        "game_number": 22
+    },
+    {
+        "player_choice": "paper",
+        "computer_choice": "scissors",
+        "outcome": "computer wins",
+        "game_number": 23
+    },
+    {
+        "player_choice": "scissors",
+        "computer_choice": "scissors",
+        "outcome": "tie",
+        "game_number": 24
+    },
+    {
+        "player_choice": "rock",
+        "computer_choice": "paper",
+        "outcome": "computer wins",
+        "game_number": 25
+    },
+    {
+        "player_choice": "rock",
+        "computer_choice": "paper",
+        "outcome": "computer wins",
+        "game_number": 26
+    },
+    {
+        "player_choice": "scissors",
+        "computer_choice": "rock",
+        "outcome": "computer wins",
+        "game_number": 27
+    },
+    {
+        "player_choice": "scissors",
+        "computer_choice": "paper",
+        "outcome": "player wins",
+        "game_number": 28
+    },
+    {
+        "player_choice": "rock",
+        "computer_choice": "rock",
+        "outcome": "tie",
+        "game_number": 29
+    },
+    {
+        "player_choice": "paper",
+        "computer_choice": "rock",
+        "outcome": "player wins",
+        "game_number": 30
+    },
+    {
+        "player_choice": "scissors",
+        "computer_choice": "scissors",
+        "outcome": "tie",
+        "game_number": 31
+    },
+    {
+        "player_choice": "scissors",
+        "computer_choice": "paper",
+        "outcome": "player wins",
+        "game_number": 32
+    },
+    {
+        "player_choice": "rock",
+        "computer_choice": "scissors",
+        "outcome": "player wins",
+        "game_number": 33
+    },
+    {
+        "player_choice": "paper",
+        "computer_choice": "rock",
+        "outcome": "player wins",
+        "game_number": 34
+    },
+    {
+        "player_choice": "rock",
+        "computer_choice": "scissors",
+        "outcome": "player wins",
+        "game_number": 35
+    },
+    {
+        "player_choice": "scissors",
+        "computer_choice": "rock",
+        "outcome": "computer wins",
+        "game_number": 36
+    },
+    {
+        "player_choice": "paper",
+        "computer_choice": "rock",
+        "outcome": "player wins",
+        "game_number": 37
+    },
+    {
+        "player_choice": "rock",
+        "computer_choice": "paper",
+        "outcome": "computer wins",
+        "game_number": 38
+    },
+    {
+        "player_choice": "paper",
+        "computer_choice": "rock",
+        "outcome": "player wins",
+        "game_number": 39
+    }
+]

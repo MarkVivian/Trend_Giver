@@ -1,9 +1,12 @@
 import pandas as pd
 import numpy as np
 
+
 class TrendAlg:
     def __init__(self):
-        print("this is a trend algo.")
+        pass
 
     def runner(self):
         print("Runner")
+ # todo : find or create a tick tack toe dataset.
+ # todo :
