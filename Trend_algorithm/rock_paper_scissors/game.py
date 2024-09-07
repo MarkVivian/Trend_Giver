@@ -9,7 +9,6 @@ class Game:
     def randomization(self):
         # Get a random value between 1 and 3.
         random_number = Random().randint(1, 3)
-        print(random_number)
 
         # Return the corresponding piece.
         return self.pieces[random_number - 1]

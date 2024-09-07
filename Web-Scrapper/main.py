@@ -1,16 +1,16 @@
-# This is a sample Python script.
+import scrapper.backiee as logger
+from scrapper.useful import check_internet
+from time import sleep
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
-
+    i = 4
+    while i <= 10:
+        # check if there is internet connection
+        if check_internet():
+            logger.DataLogger(f"https://backiee.com/search/sports+car?category=car&page={i}").runner()
+            i += 1
+        else:
+            sleep(input("type a time or leave it until internet access : "))
+            logger.DataLogger(f"https://backiee.com/search/sports+car?category=car&page={i}").runner()
+            i += 1
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
