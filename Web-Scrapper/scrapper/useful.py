@@ -1,7 +1,11 @@
+import time
+
 import requests
 from bs4 import BeautifulSoup
 from selenium import webdriver
 
+# cannot be used with sites which are dynamically rendered by javascript.
+# for that we use selenium.
 def get_content_beautifulSoup(url):
     response = requests.get(url)
 
@@ -13,13 +17,18 @@ def get_content_beautifulSoup(url):
     else:
         print(f"Failed to retrieve the page. Status code: {response.status_code}")
 
-
+# used mostly for dynamically loaded pages.
 def get_content_selenium(url):
-    # Setup the browser (here using Chrome)
+    # Setup the browser (Chrome in this case)
     driver = webdriver.Chrome()
 
     # Open the webpage
     driver.get(url)
+
+    # Optional: wait for JavaScript and page content to fully load
+    time.sleep(10)  # Adjust the wait time based on how long the page takes to load
+
+    # Return the driver so it can be used later
     return driver
 
 def check_internet(url="https://www.google.com", timeout=5):
